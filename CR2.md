@@ -45,7 +45,7 @@ head(Fatal);head(Inj)
     ## 5             TSTM WIND        0
     ## 6       TSTM WIND (G45)        0
 
-### Extract top15
+### Extract top10
 
 ``` r
 Fatal.10<-Fatal[order(-Fatal$FATALITIES),][1:10,]
